@@ -1,22 +1,22 @@
 # Site settings
 title: 星港
-SEOTitle: 宇星 | Yuxingblog
+SEOTitle: 宇星的博客 | Yuxblog
 header-img: img/home-bg.jpg
 email: u_stars@foxmail.com
 description: "Cool blog"
-keyword: ""
+keyword: "廖宇星"
 url: "http://vvstars.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
-RSS: false
+RSS: ture
 weibo_username:     u_星子
 zhihu_username:     廖宇星
 github_username:    vvstars
 #twitter_username:  huxpro
-facebook_username:  yuxing.liao.1
+facebook_username:  廖宇星
 
 
 
