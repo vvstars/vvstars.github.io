@@ -4,7 +4,7 @@ SEOTitle: 宇星的博客 | Yuxblog
 header-img: img/home-bg.jpg
 email: u_stars@foxmail.com
 description: "Cool blog"
-keyword: "廖宇星"
+keyword: "廖宇星，宇星，廖宇星的博客，博客，jekyll，Hux，个人网站"
 url: "http://vvstars.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -33,6 +33,8 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
+paginate: 100
+paginate_path: "page:num"
 
 
 
@@ -68,7 +70,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，拍拍照片，玩玩轮滑。世界那么大，环境我都看。"
+sidebar-about-description: "摄影，轮滑，代码"
 sidebar-avatar: img/yux.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
