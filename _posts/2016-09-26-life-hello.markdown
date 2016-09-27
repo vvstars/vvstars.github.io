@@ -4,7 +4,7 @@ title:      "Yuxing's first try"
 subtitle:   "Hello word!"
 date:       2016-09-26
 author:     "Yuxing"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/post-bg-2016,jpg"
 tags:
     - Life
 ---
