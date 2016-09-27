@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+f@media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
     padding-right: 5%;
@@ -564,7 +564,7 @@ footer {
 }
 footer .list-inline {
   margin: 0;
-  padding: 0;
+  padding: 14px;
 }
 footer .copyright {
   font-size: 14px;
