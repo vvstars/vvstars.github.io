@@ -1,5 +1,5 @@
 ---
-layout:     keynote
+layout:     post
 title:      "《教父》III"
 subtitle:   "一个人无聊看教父"
 date:       2015-12-26
