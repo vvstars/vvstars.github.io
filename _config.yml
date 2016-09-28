@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: u_stars@foxmail.com
 description: "Cool blog"
 keyword: "廖宇星, 宇星, 廖宇星的博客, 博客, jekyll, Hux, 个人网站, 麻雪妍的男朋友, 麻雪妍, 麻雪妍的男朋友的博客"
-url: "http://vvstars.github.io"              # your host, for absolute URL
+url: "http://liaoyuxing.space"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
