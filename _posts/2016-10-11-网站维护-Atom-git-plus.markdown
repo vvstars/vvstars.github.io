@@ -27,18 +27,18 @@ git plus官方文档如是说，大概意思就是说你在Atom上使用git plus
 
 1. 首先，你要安装git客户端，在客户端下找到git-cmd，使用git-cmd用命令行形式，以ssh方式拷贝项目。举例如下：
 
-  C:\>git clone git@github.com:vvstars/vvstars.github.io.git
+    C:\>git clone git@github.com:vvstars/vvstars.github.io.git
   Cloning into 'vvstars.github.io'...
   remote: Counting objects: 358, done.
   remote: Total 358 (delta 0), reused 0 (delta 0), pack-reused 358
   Receiving objects: 100% (358/358), 18.65 MiB | 594.00 KiB/s, done.
   Resolving deltas: 100% (163/163), done.
 
-2. 用Atom打开项目文件，在git plus的setting中配置Git Path，如下图所示：
+1. 用Atom打开项目文件，在git plus的setting中配置Git Path，如下图所示：
 
 ![](http://ooo.0o0.ooo/2016/10/11/57fc7c4783df7.png)
 
-3. 设置完成后即可编辑文档，并且使用git plus快速上传。
+1. 设置完成后即可编辑文档，并且使用git plus快速上传。
 
 #### **Q&A**
 
