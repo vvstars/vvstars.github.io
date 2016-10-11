@@ -25,7 +25,13 @@ layout: compress
             </div>
         </div>
 {% if page.comments and site.duoshuo_username %}
-<section></section>
+<section><div class="comment">
+    <div class="ds-thread"
+        data-thread-key="{{page.id}}"
+        data-title="{{page.title}}"
+        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
+    </div>
+</div></section>
                <!-- /#duoshuo_thread -->
                {% endif %}
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
