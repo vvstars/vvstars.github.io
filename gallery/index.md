@@ -52,24 +52,24 @@ images:
     </a>
     <br>
     <hr style="FILTER: progid:DXImageTransform.Microsoft.Shadow(color:#987cb9,direction:145,strength:35); width=80%; color=#987cb9; SIZE=5">
-    
+
       {% endfor %}
 </figure>
 <!--
 
 
 <div class="gallery masonry-gallery">
-				
+
 {% for image in page.images %}  	
 
 	               <figure class="gallery-item">
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
-		       
+
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
 
-					</header>	
+					</header>
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.gallery-name}}</h3>
@@ -78,8 +78,8 @@ images:
 					</figcaption>
                        </figure>
 				</figure>
-							
+
 {% endfor %}		
-				
+
 			</div>
             -->
