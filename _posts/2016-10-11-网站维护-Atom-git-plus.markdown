@@ -9,21 +9,21 @@ tags:
     - 网站维护
 ---
 
-###**Atom简介**
+### **Atom简介**
 
 > Atom is a text editor that’s modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
 
 最近几天在尝试使用Atom，Atom是Github专门为程序员推出的一个跨平台文本编辑器。具有简洁和直观的图形用户界面，并有很多有趣的特点：支持CSS，HTML，JavaScript等网页编程语言。它支持宏，自动完成分屏功能，集成了文件管理器。开发团队将Atom成为“21世纪创造的可配置的编辑器”，它拥有非常细腻的界面，并且配置项丰富，而且可扩展各种实用的插件。
 
-###**git-plus配置**
+### **git-plus配置**
 
-####**官方说明**
+#### **官方说明**
 
 > vim-fugitive like package for atom. make commits and other git things without the terminal. Make sure your gitconfig file is configured. You must configure at least the user.email and user.name variables.Also, the package currently favors an ssh setup that doesn’t expect to be prompted for credentials in order to push/pull, .etc.
 
 git plus官方文档如是说，大概意思就是说你在Atom上使用git plus插件可以脱离其他git终端即可完成各种git指令实现版本控制，但前提是你得先配置好你的用户名和邮箱，并且配置好ssh，看来git plus只能支持通过ssh key这种方式来使用git命令。
 
-####**配置**
+#### **配置**
 
 1. 首先，你要安装git客户端，在客户端下找到git-cmd，使用git-cmd用命令行形式，以ssh方式拷贝项目。举例如下：
 
@@ -40,7 +40,7 @@ git plus官方文档如是说，大概意思就是说你在Atom上使用git plus
 
 3. 设置完成后即可编辑文档，并且使用git plus快速上传。
 
-####**Q&A**
+#### **Q&A**
 
 Q：博主在配置文件后上传时遇到无法上传的问题，纠察原因后发现是权限问题，博主用博主自己的个人账号（vvstars）上传文件至（sceenju）账号下的文件时，遇到无法上传问题。
 
