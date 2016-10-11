@@ -26,8 +26,8 @@ sass:
   style:            compressed
 email: u_stars@foxmail.com
 # Comments
-disqus_shortname:   liaoyuxing
-duoshuo_username:    liaoyuxing
+#disqus_shortname:   liaoyuxing
+duoshuo_username:   liaoyuxing
 duoshuo_share:      false
 
 # Social
