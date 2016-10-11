@@ -3,8 +3,7 @@ layout:     post
 title:      "《教父》III"
 date:       2015-12-26
 excerpt:   "一个人无聊看教父"
-tags:
-    - Life
+tags:      [Life]
 comments: true
 ---
 

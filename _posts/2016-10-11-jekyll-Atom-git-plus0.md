@@ -3,7 +3,7 @@ layout:     post
 title:      "使用Atom中的markdown-img-paste快速添加图片"
 excerpt:   "摆脱手动添加本地图片的麻烦和图片大小格式难以控制等问题，方便快捷地添加大小可控的文档图片"
 date:       2016-10-11
-tags:
+tag:
     - 网站维护
     - Atom
     - github

@@ -3,7 +3,7 @@ layout:     post
 title:      "使用he.net的免费DNS服务器"
 excerpt:   "摆脱国内种种DNS解析限制，享受国际一级DNS解析服务。"
 date:       2016-09-29
-tags:
+tag:
     - 网站维护
 comments: true
 ---
