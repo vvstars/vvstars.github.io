@@ -7,6 +7,7 @@ author:     "Yuxing"
 header-img: "img/He.net-2016.jpg"
 tags:
     - 网站维护
+    - Atom
 ---
 
 ### **Atom简介**
@@ -22,6 +23,8 @@ tags:
 > vim-fugitive like package for atom. make commits and other git things without the terminal. Make sure your gitconfig file is configured. You must configure at least the user.email and user.name variables.Also, the package currently favors an ssh setup that doesn’t expect to be prompted for credentials in order to push/pull, .etc.
 
 git plus官方文档如是说，大概意思就是说你在Atom上使用git plus插件可以脱离其他git终端即可完成各种git指令实现版本控制，但前提是你得先配置好你的用户名和邮箱，并且配置好ssh，看来git plus只能支持通过ssh key这种方式来使用git命令。
+
+[官方说明文档](https://atom.io/packages/git-plus)
 
 #### **配置**
 
