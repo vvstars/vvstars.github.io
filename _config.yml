@@ -26,7 +26,9 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   liaoyuxing
+#disqus_shortname:   liaoyuxing
+duoshuo_username:    vvstars
+duoshuo_share:      ture
 
 # Social
 # if you don't have any of social below, comment the line.
