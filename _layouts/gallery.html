@@ -13,7 +13,16 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
-    {% include gallery.html %}
+    <div class="wrapper animated fadeIn">
+            <div class="content">
+    <figure class="third">
+	{% for image in images %}
+    <a href="{{ image }}"><img src="{{ image }}" alt=""></a>
+    {% endfor %}
+	<figcaption>{{ caption }}有待上线</figcaption>
+</figure>
+        </div>
+        </div>
     </header>
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
