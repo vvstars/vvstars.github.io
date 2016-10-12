@@ -1,15 +1,15 @@
 # Site
-title:              Star
+title:              Star | 宇星的博客
 bio:                'Star, a dreamer in the universe.'
 description:        "Star is a blog, belong to liaoyuxing."
-keyword: "廖宇星, 宇星, 廖宇星的博客, 博客, jekyll, Hux, 个人网站, 麻雪妍的男朋友, 麻雪妍, 麻雪妍的男朋友的博客"
+keyword: "廖宇星,宇星,廖宇星的博客,博客,jekyll,Yux,个人网站,麻雪妍的男朋友,麻雪妍,麻雪妍的男朋友的博客"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:
+locale:             cn_China
+url:                http://liaoyuxing.space/
 
 # Jekyll
 permalink:          /:title/
