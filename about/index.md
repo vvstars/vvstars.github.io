@@ -9,7 +9,7 @@ comments: ture
 <center><a href="http://liaoyuxing.space"><b>Star</b></a> is a blog, belong to liaoyuxing.</center>
 
 ## Information
-* 廖宇星 | Luise Liao
+* 廖宇星--Luise Liao
 * Senior student, School of Environment, Nanjing university
 * Nanjing, Jiangsu, China
 * E-mail: [u_stars@foxmail.com](mailto:u_stars@foxmail.com)
