@@ -1,5 +1,5 @@
 # Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)
-    
+
 ######(If you like this theme or using it, please give a :star: for motivation.)
 
 **[Moon](http://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
@@ -26,3 +26,8 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 ## Getting Started
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+
+##Yux
+添加了Gallery和duoshuo评论框。
+链接提交给百度和谷歌。
+在根目录放置了百度和谷歌的验证文件。
