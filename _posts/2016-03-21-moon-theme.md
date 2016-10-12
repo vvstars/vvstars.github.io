@@ -1,160 +1,107 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
-project: true
+title:  " 敏捷组织创客大赛：全球洞见与中国实践 "
+date:   2016-10-12
+excerpt: "向敏捷组织转型以适应瞬息万变的市场，正在成为越来越多企业的共同选择。那么，在转型之路上，企业面临着哪些敏捷性挑战？应如何有效应对？又有哪些好的做法值得借鉴？"
+mckinsey: true
 tag:
-- jekyll 
-- moon
-- blog
-- about
-- theme
+- mckinsey
 comments: true
 ---
 
-![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-    
-<center><b>Moon</b> is a minimal, one column jekyll theme.</center>
-     
- I'm not a developer or designer. And I don't add footer to show who did this theme. If you like this theme or using it, please give a **star** for motivation, It makes me happy.
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
-      
-## Installation
-* Fork the [Moon repo](https://github.com/TaylanTatli/Moon/fork)
-* Edit `_config.yml` file.
-* Remove sample posts from `_posts` folder and add yours.
-* Edit `index.md` file in `about` folder.
-* Change repo name to `YourUserName.github.io`    
-     
-That's all.
+### 什么是敏捷组织？
 
-## Preview
+> 敏捷组织又称[灵捷组织(Adroitly Organization)](http://wiki.mbalib.com/wiki/%E7%81%B5%E6%8D%B7%E7%BB%84%E7%BB%87)，[灵捷组织]是通过企业内部各部门之间的协调和外部相关行业的合作，极大扩展和充分利用企业竞争所需的各种资源，形成优势互补，从而提高企业的市场竞争力。在灵捷组织的设立中，尤以值得提倡的是速动式的运作机制和虚拟的组织方式。
 
-{% capture images %}
-	https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-	https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png
-	https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=3 %}
+> 张海灌：我认为，敏捷组织要具备两个方面的支撑，既要有高度稳定的平台、完善的结构和流程，也要具备快速行动和应变的能力。首先是灵活。 互联网企业或是创业公司有很多值得学习的地方。比如把组织打散，组成很多个创业小团队，不仅内部有竞争，相互之间也有竞争，一切以价值创造力和客户需求为导向。创业团队的成效怎么样，组织内部很快就能反映出来。同时，创业小团队还能得到组织足够的授权和资源。<br><br>但灵活并不是构建敏捷组织的全部，尤其对大企业来说。大企业需要同时强调组织的稳定性，但这个稳定并不是指传统意义上的员工终老退休，人员不流动，更多是指组织搭建了一个比较稳定的大平台。它能够减少风险，能够体现规模效应，能够给做业务、开发新产品等面向客户的团队以足够的资源支撑。
 
----
+*敏捷性*是指以比较低的成本快速适应外部变化的能力。 外部的变化包括监管环填的改变、技术的进步、客户需求的变化和竞争对手的颠覆等等。
 
-{% capture images %}
-	https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png
-	https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png
-{% endcapture %}
-{% include gallery images=images caption="Moon Theme on Small Screen Size" cols=2 %}      
-      
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.      
+不管是矩阵式组织、事业部，还是全球化组织，都比较强调管控、
+效率和风险，更像是19、20世纪工 业化大生产时代的组织形式。现在看来，传统的大型金字塔式的官僚组织日渐机械僵化，在适应外部变化方面表现不佳，新时代的组织更多强调**创新**、 强调**快速反应**、强调**以客户为中心**，它们必须要提高自身的*敏捷性*。
 
-## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
 
-### Site Wide Configuration
-`_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
+### 灵捷组织与灵捷竞争
 
-#### title
+> [灵捷竞争](http://wiki.mbalib.com/wiki/%E7%81%B5%E6%8D%B7%E7%BB%84%E7%BB%87)要求企业以尽可能低的“费用—效用比”，极大地缩短“观念—现金”的时间，将丰富顾客价值的产品投向市场，而合作是实现这些要求的有效方式。因为通过企业内部的，特别是企业之间的合作，可以极大扩展和充分利用企业竞争所需的各种资源——不论它在哪里或由谁拥有它，以形成资源与优势互补的灵捷组织。
 
-The title of your site... shocker!
+对于灵捷组织而言，最值得一提的是它“速动”的运作机制和“虚拟”的组织方式。虚拟组织已成为灵捷竞争者手中精密的战略武器，它反映和推进了灵捷竞争中的三个主旨：
 
-Example `title: My Awesome Site`
+1. 灵捷竞争者要迅速创造或集聚新的生产性资源；
 
-#### bio
+1. 由于个性产品或服务的可获利寿命期的逐渐缩短，灵捷竞争者要频繁地、同步地创造或集聚新的生产性资源；
 
-The description to show on your homepage.
+1. 现今最具获利能力的产品往往需要广泛的核心能力——研制、定型、生产、设计、市场营销、分销渠道、服务等。
 
-#### description
-
-The description to use for meta tags and navigation menu.
-
-#### url
-
-Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
-
-Examples:
-
-{% highlight yaml %}
-url: http://taylantatli.me/Moon
-url: http://localhost:4000
-url: //cooldude.github.io
-url:
-{% endhighlight %}
-
-#### reading_time
-
-Set true to show reading time for posts. And set `words_per_minute`, default is 200.
-
-#### logo
-Your site's logo. It will show on homepage and navigation menu. Also used for twitter meta tags.
-
-#### background
-Image for background. If you don't set it, color will be used as a background.
-
-#### Google Analytics and Webmaster Tools
-
-Google Analytics UA and Webmaster Tool verification tags can be entered in `_config.yml`. For more information on obtaining these meta tags check [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) and [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownership) support.
-
-#### MathJax
-It's enabled. But if you don't want to use it. Set it false in  `_config.yml`.
-
-#### Disqus Comments
-Set your disqus shortname in `_config.yml` to use comments.
 
 ---
 
-### Navigation Links
 
-To set what links appear in the top navigation edit `_data/navigation.yml`. Use the following format to set the URL and title for as many links as you'd like. *External links will open in a new window.*
+### 如何提高敏捷性
 
-{% highlight yaml %}
-- title: Home
-  url: /
+**一、8个杠杆原理**
 
-- title: Blog
-  url: /blog/
+![](http://ooo.0o0.ooo/2016/10/12/57fe203de9021.png)
 
-- title: Projects
-  url: /projects/
+_来自张海濛. 麦肯锡全球董事合伙人:8个杠杆是敏捷组织运营的主要支柱[J]. 中国机电工业,2016,08:62-63._
 
-- title: About
-  url: /about/
+**二、微信笔记**
 
-- title: Moon
-  url: http://taylantatli.me/Moon
-{% endhighlight %}
+组织向敏捷性转变实质上是一个文化变革之旅。企业文化是由价值信仰、体制、环境、架构以及人才等五个维度促成的。敏捷性组织对这五个维度的要求可以归纳如下。
 
----
+<font color=blue>首先，组织向敏捷性转变始于价值信仰的牵引。</font>没有核心的价值信仰，各项举措就会如浮萍般没有根基。中国区工作小组中在敏捷性变革取得成功的公司都把价值信仰放在第一位，作为敏捷性体制的指引。
 
-## Layouts and Content
+<font color=blue>其次，人才维度。</font>敏捷性领导力常见的特质包括以支持式取代命令控制式（command & control）领导方式，并将决策权下放到一线员工。在人才选拔方面，敏捷性组织对人才在价值层面和软能力层面的要求更加明确，主要的工具还是基于价值观和软胜任力的行为能力面试(competency based interview)。在面对大量候选人的时候，也有公司运用自然语言处理(Natural LanguageProcessing)技术，从申请材料中抓取候选人在价值观和软胜任力方面的细节进行初筛。
 
-Moon Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-html) to compress html output. But it can cause errors if you use "linenos" (line numbers). I suggest don't use line numbers for codes, because it won't look good with this theme, also i didn't give a proper style for them. If you insist to use line numbers, just remove `layout: compress` string from layouts. It will disable compressing.
+<font color=blue>第三，架构维度。</font>继传统的“层级制组织结构(Bureaucracy)”和“精英制组织结构(Meritocracy)”之后，出现了“灵活组织机构(Adhocracy)”。这种灵活组织机构包含以下三个方面的特点：
 
-### Feature Image
+**围绕外部市场机会协调各项活动**。在协调各项活动时，层级制组织结构依据的是程序和规章制度，精英制组织结构则凭借信息的流动和个人经验，而灵活组织机构是围绕外部机会来协调各项活动。例如，某医药企业将药品研发部门分为40个部门，让各部门围绕市场机会协调人员组成团队，竞争资金等资源。
 
-You can set feature image per post. Just add `feature: some link` to your post's front matter.
+**通过试验做决策**。层级制组织的决定是由层级制定（即高层决策），精英制组织的决策是通过讨论和争辩做出的，而灵活组织结构通过试验做决策，节省了内部决策的时间，直接去客户那里检验并根据反馈进行调整。
 
-```
-feature: /assets/img/some-image.png
-or
-feaure: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
+**通过成就和认可激励员工**。层级制组织主要通过财务手段激励员工，精英制组织采用财务和非财务激励两种方式并用，而灵活组织结构激励仅凭借非财务激励，围绕着员工在工作方面的挑战，给予员工资源的支持和充分的自主权。
 
-![Moon Twitter Card](https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png)
+围绕机会灵活自组的这种灵活组织结构越来越多，且效果很好。为了实现这种灵活，有些企业的做法值得借鉴。首先将目标部门的**所有职位做两个维度的划分**，一个维度是专业性职位，需要长时间且非常专精的知识和经验，另一个维度是通用类职位，技能要求没有那么高，通过相对较短的时间培训或者学习即能胜任的；然后针对第二类职位建立通用人才库（见下图），并根据每个任务项要求配备相应员工。不过，这一做法可能会导致通用型员工的职业发展机会相对较少。因此需要特别关注此类人才的挽留和职业发展。
 
-### Comments
-To show disqus comments for your post add `comments: true` to your post's front matter.
+![](http://ooo.0o0.ooo/2016/10/12/57fe22d96cc9d.png)
 
----
+另外，在灵活架构下，为激发员工的创造力和自主性，职位要求不应事无巨细、详尽罗列，只需要方向性或者原则性的描述，以给员工留出足够的自由发挥的空间。中国区工作小组某企业的做法是，职位描述仅作外部招聘使用，员工上岗后职位描述作为指导，避免了入职初期的无所适从。在后期的工作中，职位描述将在员工认为合适的时候淡出至完全摒弃。
 
-## Questions?
+<font color=blue>第四，体制维度。</font>在敏捷组织各话题中，绩效体制是讨论最多的体制之在向敏捷组织转型的过程中，很多企业尝试着引入OKR（Objectives and Key Results）。这首先是因为OKR给予员工很大的自主权和空间，其次OKR的即刻反馈特点比KPI半年或者年度总结更适合敏捷性的要求。
 
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Moon/issues/new). And if you make something cool with this theme feel free to let me know.
+同时，越来越多的企业开始重视同级别的绩效反馈，并倾向于将绩效结果与财务奖励脱钩。但绩效的导向性仍然不容忽视，因为可能出现员工对于与KPI挂不上钩的举措和项目没有参与的热情，甚至远离。
+体制也包括端到端的跨部门标准化程序，节省时间，同时也保障自主权在一定的框架下实行。
 
----
+<font color=blue>最后，工作环境维度。</font>工作环境和恰当的文化标志物，可以让员工更充分地感受到企业所倡导的理念，从而更好地接受和践行敏捷性要求。而恰恰是这些看似微小的细节，成就了企业向敏捷性组织的转型。例如，中国区工作小组的某家公司舍弃了单独办公室，把办公空间设计为开放式，并鼓励员工去咖啡间讨论或者开会，不但促进了彼此交流，而且有利于释放员工的创新潜力。
 
-## License
+### <center><font color=#666>案例</center>
 
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
+A公司是某在华英语教育机构。敏捷性是其一贯追求的文化。为了打造这种敏捷性的文化，A公司从如下五个方面入手：
+
+#### <center><font color=#666>办公室布置和员工活动</center>
+
+> 为营造促进员工自由交流和头脑风暴的舒适氛围，所有员工，包括各级管理者都没有单独的办公室，大家共享开放空间，但设有独立的电话间。在开放空间，配有长椅和沙发，以及人造草坪和绿树。
+
+#### <center><font color=#666>职业路径和薪酬制度</center>
+
+> 在职业路径方面，A公司的职位描述只是在对外招聘时使用，并不对内，避免了职位描述制约员工的发展。对工作1年以上的员工开放自由的职业通道，他们可以申请其他职能部门、事业部甚至其他国家的职位。在薪酬制度方面，A公司做了大胆改革。没有依传统的薪酬形式制定每个岗位的薪酬区间，而且每个岗位的薪酬不设上限，只要该岗位所在的事业部能证明薪酬的合理性，就可以由该业务部门的领导决定。A公司的薪酬制度让员工得以在业务部门和职能之间甚至国家之间自由转换岗位。公司的初衷是希望促进灵活的职业发展，并鼓励贡献，而不是看重任职长短。
+
+#### <center><font color=#666>绩效考评</center>
+
+> A公司采用KPI和OKR并行的绩效考评。KPI管理低级职位的日常绩效；对于管理层，则KPI和OKR同时采用，KPI用来考核日常工作，OKR用来鼓励新的想法、新的项目。KPI 每年审核一次， OKR则每月审核一次。
+
+#### <center><font color=#666>组织架构</center>
+
+> A公司采用扁平的组织形式，组织架构上一共只有六个层级。职能部门也没有矩阵的汇报形式，所有团队带头人都直接向业务部门主管汇报，以最大化业务部门的自由决策权。业务部门和其对应的总部部门之间只是简单的支持关系，即业务部门需要总部支持的时候，总部相应的部门给予支持，除此之外并不会过多干涉。
+
+#### <center><font color=#666>招聘</center>
+
+> A公司认识到，拥有成长型观念(而不是固定型观念)、有激情和创造力、有企业家精神等特质的员工才是符合敏捷组织要求的。为此，在招聘时通过反映其核心价值的“蓝色手册”，衡量候选人的价值观与公司的匹配程度；同时使用 “优缺点六项” 衡量候选人在六项行为能力方面的匹配程度。
+
+
+<center>
+<a class="btn zoombtn"  href="http://mp.weixin.qq.com/s?__biz=MzA4MDUzOTIxNA==&mid=506336627&idx=1&sn=879e84341950c0dd0e2f58e9a8406866&mpshare=1&scene=1&srcid=1012iTN5LM0ZuZQp0LJifVcq#rd">
+<strong><font color=#666>微信原文</strong>
+</a>
+</center>

@@ -11,7 +11,7 @@
 * Syntax highlighting
 * Optional post image
 * Social icons
-* Page for sharing projects
+* Page for sharing mckinseys
 * Optional background image
 * Simple navigation menu
 * MathJax support
