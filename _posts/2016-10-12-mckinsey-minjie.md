@@ -10,7 +10,7 @@ tag:
 comments: true
 
 ---
-
+<link href="/_posts/md.css" rel="stylesheet"></link>
 ### 什么是敏捷组织？
 
 > 敏捷组织又称[灵捷组织(Adroitly Organization)](http://wiki.mbalib.com/wiki/%E7%81%B5%E6%8D%B7%E7%BB%84%E7%BB%87)，[灵捷组织]是通过企业内部各部门之间的协调和外部相关行业的合作，极大扩展和充分利用企业竞争所需的各种资源，形成优势互补，从而提高企业的市场竞争力。在灵捷组织的设立中，尤以值得提倡的是速动式的运作机制和虚拟的组织方式。
