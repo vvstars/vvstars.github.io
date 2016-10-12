@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Gallery
+title:  Gallery
 excerpt: "A bundle of pictures"
 comments: false
 images:
  - image_path: /gallery/albums/alb01.jpg
    gallery-folder: /gallery/gallery01/
-   gallery-name: gallery1
+   gallery-name: Gallery1--厦门大学
    gallery-date: July 2015
  - image_path: /gallery/albums/alb02.jpg
    gallery-folder: /gallery/gallery02/
