@@ -10,7 +10,6 @@ tag:
 comments: true
 
 ---
-<link href="/md.css" rel="stylesheet"></link>
 
 ### 什么是敏捷组织？
 
