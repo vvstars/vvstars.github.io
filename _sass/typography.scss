@@ -11,8 +11,15 @@
 		padding: 0 .5em;
 	}
 }
-
-// titles
+.content.pager{
+	margin:20px 0 0!important;
+	padding:0!importa
+}
+.content.pager li{width:48%}
+.content.pager li.previous{float:left}
+.content.pager li.next{float:right}
+.pager li{display: inline;}
+	// titles
 .title {
 	text-align: center;
 	font-weight: bold;
