@@ -18,8 +18,8 @@ comments: true
 
 安装完成后，用`ruby -v`检验一直默认安装ruby1.9.3
 
-`$ ruby -v`
-`ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-linux]`
+`$ ruby -v'
+'ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-linux]`
 
 在使用`$sudo apt-get update`之后使用`$sudo apt-get install ruby`+`Tab`检验得出以下结果：
 

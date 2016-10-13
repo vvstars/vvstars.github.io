@@ -12,7 +12,7 @@ locale:             cn_China
 url:                http://liaoyuxing.space/
 
 # Jekyll
-permalink:          /:title/
+permalink:          pretty
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
