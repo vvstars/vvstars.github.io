@@ -24,7 +24,7 @@ comments: true
 
 markdown-img-paste官方文档如是说，大概意思就是说在默认情况下，我们使用ctrl+shift+v黏贴的图片会直接出现在改文档所在的文件夹目录下，通过改变该插件的setting，我们可以避免这种情况。同时，取消 *Only in markdown grammar to enable the plugin.* 选项，我们还能在除markdown文档之外的文档使用它，十分方便。
 
-除默认模式意外，它还有以下几种模式：
+除默认模式以外，它还有以下几种模式：
 
 1. sm.ms 将图片上传至免费网站上，并且通过链接使用，由于是公开免费网站，注重图片隐私安全性的朋友不推荐使用。
 

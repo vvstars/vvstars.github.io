@@ -13,11 +13,16 @@
 }
 .content.pager{
 	margin:20px 0 0!important;
-	padding:0!importa
+	padding:0!importa;
+	text-align: center;
+    list-style: none;
 }
-.content.pager li{width:48%}
-.content.pager li.previous{float:left}
-.content.pager li.next{float:right}
+.content ul{
+  margin-bottom: 40px;
+}
+.content.pager li{width:48%;}
+.content.pager li.previous{float:left;}
+.content.pager li.next{float:right;}
 .pager li{display: inline;}
 	// titles
 .title {
