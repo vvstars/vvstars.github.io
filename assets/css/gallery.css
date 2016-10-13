@@ -133,7 +133,7 @@ img.mfp-img { padding: 0; }
 
 
      /*galleries adapted*/
-	.masonry-gallery .gallery-item { width: 30% !important; }
+	.masonry-gallery .gallery-item { width: 100% !important; }
 
 @media screen and (max-height: 480px) {
 	/*header smaller space*/
@@ -141,7 +141,7 @@ img.mfp-img { padding: 0; }
 
 	/*galleries adapted*/
 	.fullscreen-gallery .gallery-caption .entry-summary { padding-bottom: 2em; }
-	.masonry-gallery .gallery-item {width: 98% !important;}
+	.masonry-gallery .gallery-item {width: 100% !important;}
 }
 
 @media screen and (max-width: 640px) and (orientation: portrait) {
