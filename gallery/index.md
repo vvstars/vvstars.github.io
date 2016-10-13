@@ -41,6 +41,7 @@ images:
    gallery-name: gallery9
    gallery-date: November 2014
 ---
+<!--
 <figure class= "3" >
     {% for image in page.images %}
     <figcaption>
@@ -55,8 +56,8 @@ images:
 
       {% endfor %}
 </figure>
-<!--
 
+ -->
 
 <div class="gallery masonry-gallery">
 
@@ -82,4 +83,4 @@ images:
 {% endfor %}		
 
 			</div>
-            -->
+           
