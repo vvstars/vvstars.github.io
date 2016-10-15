@@ -8,6 +8,7 @@ comments: true
 ---
 * content
 {:toc}
+
  在这个圣诞的晚上坐在电脑前看完的《教父III》，麦克的忏悔触动我好一阵子：
 
 > “I betrayed my wife.

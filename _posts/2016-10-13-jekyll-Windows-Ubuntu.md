@@ -12,6 +12,7 @@ comments: true
 
 * content
 {:toc}
+
 #### **安装ruby**
 
 首先安装ruby，之前用
