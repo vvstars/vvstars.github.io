@@ -7,13 +7,14 @@ tag:
     - 网站维护
 comments: true
 ---
-
+* content
+{:toc}
 
 he.net提供免费的DNS服务器。he.net是美国老牌IDC，在技术领域比较强，尤其是IPV6应用。he.net提供的DNS服务器都在美国，如果网站的访问者大部分在国外，建议he.net的DNS服务器，会比国内的DNS服务器快一些。如果用国内的DNS，那么Google的爬虫在抓取网站的时候可能会碰到DNS错误，而使用he.net的DNS服务器则不会有这个问题。另外，he.net的DNS服务器还支持空域名CNAME 。
 
 使用he.net的DNS服务器的步骤如下：
 
-**1. 注册**
+#### **1. 注册**
 
 在首页 [https://dns.he.net/]([https://dns.he.net/) 点击*Register!*按钮，然后会进入 [http://ipv6.he.net/certification/register.php](http://ipv6.he.net/certification/register.php/)
 
@@ -22,7 +23,7 @@ he.net提供免费的DNS服务器。he.net是美国老牌IDC，在技术领域�
 注册新用户。注意注册信息要填写完整，email地址一定要准确，注册后密码会发到邮箱里面去。
 
 
-**2. 使用**
+#### **2. 使用**
 
 注册成功后，密码会发到注册的邮箱里面去。同时点击邮箱中的链接进行邮箱验证，获得以下界面。
 
@@ -46,7 +47,7 @@ he.net提供免费的DNS服务器。he.net是美国老牌IDC，在技术领域�
 
 在域名服务商那里修改后，等几分钟就应该会生效了。
 
-**3. 解析**
+#### **3. 解析**
 
 使用he.net提供的DNS解析服务，你可以添加记录有：A, AAAA, CNAME, MX, NS, TXT, SRV, SSHFP, SPF, RP, NAPTR, HINFO, LOC 和 PTR，同时支持IPv4 和 IPv6 。
 

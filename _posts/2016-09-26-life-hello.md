@@ -7,7 +7,8 @@ tag:
     - Life
 comments: true
 ---
-
+* content
+{:toc}
 
 这是我第一次发博客。
 

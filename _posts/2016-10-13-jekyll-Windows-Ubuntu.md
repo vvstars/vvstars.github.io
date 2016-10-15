@@ -10,6 +10,8 @@ comments: true
 
 ---
 
+* content
+{:toc}
 #### **安装ruby**
 
 首先安装ruby，之前用
@@ -84,7 +86,7 @@ ruby环境配置完毕。
 
 #### **安装rubygems**
 
-先到官网[下载](http://www.2cto.com/soft)安装包http://rubygems.org/pages/download
+先到官网[下载](http://www.2cto.com/soft)安装包[http://rubygems.org/pages/download](http://rubygems.org/pages/download)
 
 然后安装
 
@@ -122,7 +124,7 @@ $gem install jekyll
 
 若出现问题，有可能是Python或者Java版本太低或者没安装，此时执行`$sudo apt-get update`和`$sudo apt-get upgrade`或者`$sudo apt-get install java`即可。
 
-#### **使用bundler本地运行jekyll网站**
+#### **使用bundler**
 
 使用gem安装bundler，执行`$gem install bundler`。
 

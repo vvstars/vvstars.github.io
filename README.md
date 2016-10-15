@@ -27,7 +27,21 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
 
-##Yux
+## Yux宇星
+> 2016.10.11
+
 添加了Gallery和duoshuo评论框。
 链接提交给百度和谷歌。
 在根目录放置了百度和谷歌的验证文件。
+
+
+
+## Yux宇星
+> 2016.10.15
+
+添加了content侧边栏导航和post页面的footer统计信息。
+更改了Album的返回bug。
+更换了背景主色调。
+version 2.1
+
+
