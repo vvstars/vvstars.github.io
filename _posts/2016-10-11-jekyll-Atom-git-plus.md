@@ -14,7 +14,7 @@ comments: true
 
 ### **Atom简介**
 
-> Atom is a text editor that’s modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
+> Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
 
 最近几天在尝试使用Atom，Atom是Github专门为程序员推出的一个跨平台文本编辑器。具有简洁和直观的图形用户界面，并有很多有趣的特点：支持CSS，HTML，JavaScript等网页编程语言。它支持宏，自动完成分屏功能，集成了文件管理器。开发团队将Atom成为“21世纪创造的可配置的编辑器”，它拥有非常细腻的界面，并且配置项丰富，而且可扩展各种实用的插件。
 
@@ -22,7 +22,7 @@ comments: true
 
 #### **官方说明**
 
-> vim-fugitive like package for atom. make commits and other git things without the terminal. Make sure your gitconfig file is configured. You must configure at least the user.email and user.name variables.Also, the package currently favors an ssh setup that doesn’t expect to be prompted for credentials in order to push/pull, .etc.
+> vim-fugitive like package for atom. make commits and other git things without the terminal. Make sure your gitconfig file is configured. You must configure at least the user.email and user.name variables.Also, the package currently favors an ssh setup that doesn't expect to be prompted for credentials in order to push/pull, .etc.
 
 git plus官方文档如是说，大概意思就是说你在Atom上使用git plus插件可以脱离其他git终端即可完成各种git指令实现版本控制，但前提是你得先配置好你的用户名和邮箱，并且配置好ssh，看来git plus只能支持通过ssh key这种方式来使用git命令。
 
@@ -32,12 +32,14 @@ git plus官方文档如是说，大概意思就是说你在Atom上使用git plus
 
 1. 首先，你要安装git客户端，在客户端下找到git-cmd，使用git-cmd用命令行形式，以ssh方式拷贝项目。举例如下：
 
-       C:\>git clone git@github.com:vvstars/vvstars.github.io.git
-       Cloning into 'vvstars.github.io'...
-       remote: Counting objects: 358, done.
-       remote: Total 358 (delta 0), reused 0 (delta 0), pack-reused 358
-       Receiving objects: 100% (358/358), 18.65 MiB | 594.00 KiB/s, done.
-       Resolving deltas: 100% (163/163), done.
+```
+C:\>git clone git@github.com:vvstars/vvstars.github.io.git
+Cloning into 'vvstars.github.io'...
+remote: Counting objects: 358, done.
+remote: Total 358 (delta 0), reused 0 (delta 0), pack-reused 358
+Receiving objects: 100% (358/358), 18.65 MiB | 594.00 KiB/s, done.
+Resolving deltas: 100% (163/163), done.
+```
 
 1. 用Atom打开项目文件，在git plus的setting中配置Git Path，如下图所示：
 
