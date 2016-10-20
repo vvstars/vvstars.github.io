@@ -13,9 +13,9 @@ layout: compress
     {% include nav.html %}
     <!-- Header animated fadeIn-->
         <div class="page clearfix">
-         
+
             <div class="left">
-           
+
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
@@ -43,22 +43,22 @@ layout: compress
                     </div>
         <h2 id="comments">Comments</h2>
                 {% if page.comments and site.duoshuo_username %}
-                  
+
                       <div class="ds-thread"
                           data-thread-key="{{page.id}}"
                           data-title="{{page.title}}"
                           data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
                       </div>
-                     
+
                        <!-- /#duoshuo_thread -->
                        {% endif %}
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %} 
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
                     {% include footer.html %}
                 </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
   <!--sidebar bigan-->
         <div class="right">
-            
+
         <div class="wrap" >
 
             <!-- Content -->
@@ -69,7 +69,7 @@ layout: compress
                 <ul id="content-side" class="content-ul">
                     <li><a href="#comments"><strong>Comments</strong></a></li>
                 </ul>
-           
+
             <!-- 其他div框放到这里 -->
             <!-- <div class="side">bbbb</div> -->
         </div>
@@ -77,15 +77,15 @@ layout: compress
                 </div>
         </div>
 <!--sidebar end-->
-                
 
-             
- 
-  
-           
+
+
+
+
+
             </div>
-            
-  
+
+
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->
