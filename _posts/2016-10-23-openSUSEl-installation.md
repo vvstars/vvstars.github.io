@@ -48,4 +48,5 @@ sudo pip install shadowsocks
 除此之外推荐享听音乐（要在chrome可以翻墙后在扩展程序里下载）以及搜狗输入法。
 
 收费vpn推荐：[轻云VPN](https://www.theqingyun.info/)
+
 免费vpn推荐：[蓝灯VPN](https://github.com/getlantern/forum)
