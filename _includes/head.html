@@ -47,11 +47,12 @@
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png" />
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
 <meta name="google-site-verification" content="rs6j2YOesNP6dRu-OUHQeG9UnRwD9Q1yEWo0jcxthIY" />
-    <!-- Background Image -->
+    <!-- Background Image background-repeat: no-repeat;
+		background-size: cover;-->
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
     {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
+    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} {% endunless %}}</style>
     {% endif %}
     <!-- Post Feature Image -->
     {% if page.feature %}
