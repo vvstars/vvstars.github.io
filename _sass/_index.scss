@@ -1,3 +1,87 @@
+.container {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 30em){
+        width: 100%;
+        box-shadow: none;
+    }
+    @media screen and (min-width: 30.1em) and (max-width: 48em) {
+        width: 80%;
+    }
+}
+.social-btn {
+    padding: 10px;
+    margin: 10px;
+    /*border-color: #d0d1d5;*/
+    @extend %btnextend;
+}
+%btnextend {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(200,200,200,0);
+    color: #282828;
+    &:hover {
+        box-shadow: 0 0 1px 0 rgba(40,40,40,0.5);
+        color: #ff4136;
+        border-radius: 3px;
+        border-color: #d0d1d5;
+        border: 1px solid;
+    }
+}
+.btn {
+           padding: 10px;
+           margin: 10px;
+           font-size: 1.14286rem;
+           font-weight:300;
+           @extend %btnextend;
+           }
+.row {
+    margin-top: 15px;
+    text-align: center;
+    .title {
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-align: center;
+        font-weight: bold;
+        a{
+           color: #282828;
+           text-decoration: none;
+
+           }
+
+    }
+    @media screen and (max-width: 30em){
+        padding: 0 1em;
+
+}
+}
+hr {
+    border: 0;
+    height: 1px;
+    opacity: .8;
+    margin: 1em 0;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    &.hr-line {
+        border: 0;
+        height: 1px;
+        opacity: .15;
+        margin: 1em 0;
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    }
+}
 .page[index] {
     a {
         color: #4d6dad;

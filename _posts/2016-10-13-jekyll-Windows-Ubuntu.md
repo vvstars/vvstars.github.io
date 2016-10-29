@@ -1,19 +1,18 @@
 ---
-layout:     post
-title:      "windows 16.07中Ubuntu子系统安装jekyll环境教程"
-excerpt:   "配置windows子系统Ubuntu的jekyll开发环境"
-date:       2016-10-11
+layout: post
+title: windows 16.07中Ubuntu子系统安装jekyll环境教程
+excerpt: 配置windows子系统Ubuntu的jekyll开发环境
+date: 2016-10-11
+categories: 网站维护与开发
 tag:
-    - Windows Ubuntu
-    - jekyll
-comments: true
-
+  - Windows Ubuntu
+  - jekyll
 ---
 
 * content
 {:toc}
 
-#### **安装ruby**
+# **安装ruby**
 
 首先安装ruby，之前用
 
@@ -58,7 +57,7 @@ ruby-actionmailer-4.0                 ruby-grit-ext                         ruby
 $bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
 ```
 
-添加rvm scripts路径变量到bash： 
+添加rvm scripts路径变量到bash：
 
 ```
 $echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile
@@ -85,9 +84,9 @@ ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
 
 ruby环境配置完毕。
 
-#### **安装rubygems**
+# **安装rubygems**
 
-先到官网[下载](http://www.2cto.com/soft)安装包[http://rubygems.org/pages/download](http://rubygems.org/pages/download)
+先到官网[下载](http://www.2cto.com/soft)安装包<http://rubygems.org/pages/download>
 
 然后安装
 
@@ -113,7 +112,7 @@ $apt-get install libxml2
 $apt-get install libxslt
 ```
 
-#### **安装jekyll**
+# **安装jekyll**
 
 由于Ubuntu系统默认安装Python和Java环境，故直接使用gem安装jekyll，执行：
 
@@ -125,7 +124,7 @@ $gem install jekyll
 
 若出现问题，有可能是Python或者Java版本太低或者没安装，此时执行`$sudo apt-get update`和`$sudo apt-get upgrade`或者`$sudo apt-get install java`即可。
 
-#### **使用bundler**
+# **使用bundler**
 
 使用gem安装bundler，执行`$gem install bundler`。
 

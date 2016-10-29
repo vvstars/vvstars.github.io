@@ -1,53 +1,64 @@
----
-layout: compress
----
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
     {% include head.html %}
 </head>
+
 <body>
-    {% include nav.html %}
     <!-- Header -->
-    <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
+        <div class="container">
             <div class="row">
-                    <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
-                    </a>
-                    <h3 class="title">
+                <a href="{{ site.url }}">
+                    <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                </a>
+                <h3 class="title">
                         <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                        	<p style="font-size:2rem;font-weight:300;">{{ site.title }}</p>
 			            </a>
                     </h3>
-                    <hr class="hr-line">
-                    <h3 class="title">
+
+                <h3 class="title">
                         <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            </a>
+                        	<p style="font-size:1rem;font-weight:300;padding-bottom:10px;">{{ site.brief-intro }}</p>
+			          </a>
+                    </h3> <hr>
+                    <h3 class="title" style="font-size:30px;">
+                    {% if site.github_username %}
+                    <a class="social-btn" href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
+                    <a class="social-btn" href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} {% if site.weibo_username %}
+                    <a class="social-btn" href="http://weibo.com/{{site.weibo_username}}" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a> {% endif %} {% if site.zhihu_username %}
+                    <a class="social-btn" href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont">&#xe829;</i></a> {% endif %} {% if site.twitter_username %}
+                    <a class="social-btn" href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
+                    <a class="social-btn" href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> {% endif %}  {% if site.linkedIn_username %}
+                    <a class="social-btn" href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
+                    <a class="social-btn" href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
                     </h3>
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
+                <h3 class="title">
+                         <a class="btn zoombtn" aria-hidden="true" href="{{ site.url }}/about">
+                         <i class="fa fa-heart"></i>
                          About
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
+                         <a class="btn zoombtn" aria-hidden="true" href="{{ site.url }}/post">
+                         <i class="fa fa-pencil"></i>
                          Posts
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/mckinseys">
+                         <a class="btn zoombtn" aria-hidden="true" href="{{ site.url }}/mckinsey">
+                         <i class="fa fa-laptop"></i>
                          Mckinsey
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/gallery">
+                         <a class="btn zoombtn" aria-hidden="true" href="{{ site.url }}/gallery">
+                         <i class="fa fa-camera"></i>
                          Gallery
                          </a>
                  </h3>
             </div>
         </div>
-    </header>
-    {% include scripts.html %}
 </body>
+
 </html>

@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Yuxing's first try"
-excerpt:   "Hello word!"
-date:       2016-09-26
+layout: post
+title: "Yuxing's first try"
+excerpt: 'Hello word!'
+date: 2016-09-26
+categories: 个人随笔
 tag:
-    - Life
-comments: true
+  - Life
 ---
+
 * content
 {:toc}
 

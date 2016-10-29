@@ -1,0 +1,80 @@
+<header style="margin-bottom: 0px;background-color:#000">
+    <div class="wrapper">
+    <div style="text-align:center">
+        <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+        <strong>|</strong>
+        <small>{{site.brief-intro}}</small>
+    </div>
+    </div>
+</header>
+<header id="top">
+    <div class="wrapper">
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        <nav id="headerNav" >
+            <ul>
+                <li>
+                {% if page.url == '/' %}
+                <a class="active" href="{{site.baseurl}}/">
+                {% else %}
+                <a href="{{site.baseurl}}/">
+                {% endif %}
+                <i class="fa fa-home"></i>Home
+                </a>
+                </li>
+                <li>
+                {% if page.url == '/' %}
+                <a class="active" href="{{site.baseurl}}/about">
+                {% else %}
+                <a href="{{site.baseurl}}/about">
+                {% endif %}
+                <i class="fa fa-heart"></i>About
+                </a>
+                </li>
+                <li>
+                    {% if page.url == '/' %}
+                    <a class="active" href="{{site.baseurl}}/post/">
+                        {% else %}
+                    <a href="{{site.baseurl}}/post/">
+                    {% endif %}
+                        <i class="fa fa-pencil"></i>Post
+                    </a>
+                    <ul>
+                    {% for my_page in site.pages %}
+                    {% if my_page.title %}
+                    <li>
+                        {% if my_page.url == page.url %}
+                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
+                            {% else %}
+                        <a href="{{ my_page.url | prepend: site.baseurl }}">
+                        {% endif %}
+                            <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
+                        </a>
+                    </li><br>
+                    {% endif %}
+                    {% endfor %}
+                 </ul>
+                </li>
+                <li>
+                {% if page.url == '/' %}
+                <a class="active" href="{{site.baseurl}}/mckinsey">
+                {% else %}
+                <a href="{{site.baseurl}}/mckinsey">
+                {% endif %}
+                <i class="fa fa-laptop"></i>Mckinsey
+                </a>
+                </li>
+                <li>
+                {% if page.url == '/' %}
+                <a class="active" href="{{site.baseurl}}/gallery">
+                {% else %}
+                <a href="{{site.baseurl}}/gallery">
+                {% endif %}
+                <i class="fa fa-camera"></i>Gallery
+                </a>
+                </li>
+
+                
+            </ul>
+        </nav>
+    </div>
+</header>

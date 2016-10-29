@@ -1,84 +1,60 @@
-# Site
-title:              Star | 宇星的博客
-bio:                'Star, a dreamer in the universe.'
-description:        "Star is a blog, belong to liaoyuxing."
-keyword: "廖宇星,宇星,廖宇星的博客,博客,jekyll,Yux,个人网站,麻雪妍的男朋友,麻雪妍,麻雪妍的男朋友的博客"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Star - 宇星
+brief-intro: Star, 做宇宙中一颗有梦想的星星!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://liaoyuxing.space" # the base hostname & protocol for your site
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.jpg'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             cn_China
-url:                http://liaoyuxing.space/
+permalink: /:year/:month/:day/:title/
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+# other links
+twitter_username: LuiseLiao
+facebook_username: liaoyuxing1001
+github_username:  vvstars
 email: u_stars@foxmail.com
-# Comments
-#disqus_shortname:   liaoyuxing
-duoshuo_username:   liaoyuxing
-duoshuo_share:      false
+weibo_username: liaoyuxing1001
+zhihu_username: #
+linkedIn_username: #
+dribbble_username:
 
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 0614ad53bafda60cf7bba42be50502af
-# Google Analytics
-ga_track_id: 'UA-84827030-1'            # Format: UA-xxxxxx-xx
-#ga_domain: vvstars.gitHub.io
+description_footer: 本站记录我青春的沿途风景！
 
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
-twitter:            LuiseLiao
-facebook:           liaoyuxing1001
-github:             vvstars
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-weibo:             liaoyuxing1001
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: liaoyuxing
+disqus_shortname: #
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: 58bd04cf6c6dbb33303a5fe9862782b8
+google_analytics_id: UA-86467042-1 # google 分析追踪id
 
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+# Build settings
+markdown: kramdown
 
-jekyll-mentions:
-    base_url: https://github.com
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
