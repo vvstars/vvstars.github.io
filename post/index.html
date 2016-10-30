@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page clearfix" index>
+<div class="page clearfix animsition" index>
     <div class="left">
         <h1>My Blogs for Web and Life</h1>
         <small>这里记录着我的前端学习之路与生活随笔</small>
@@ -47,7 +47,7 @@ layout: default
      </div>
 
 
-        <!-- Pagination links 
+        <!-- Pagination links
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -65,7 +65,7 @@ layout: default
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
-    
+
     -->
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
@@ -121,7 +121,7 @@ layout: default
 
                     {% if max == min %}
                         {% assign diff = 1 %}
-                    {% else %}    
+                    {% else %}
                         {% assign diff = max | minus: min %}
                     {% endif %}
 
