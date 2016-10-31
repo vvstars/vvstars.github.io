@@ -1,0 +1,92 @@
+---
+layout: gallery
+images:
+ - image_path: /gallery/img/gallery1/1.jpg
+   image-name: Gallery1--示例相册
+   image-date: July 2015
+ - image_path: /gallery/img/gallery1/2.jpg
+   image-name: gallery2
+   image-date: June 2015
+ - image_path: /gallery/img/gallery1/3.jpg
+   image-name: gallery3
+   image-date: May 2015
+ - image_path: /gallery/img/gallery1/4.jpg
+   image-name: gallery4
+   image-date: April 2015
+ - image_path: /gallery/img/gallery1/5.jpg
+   image-name: gallery5
+   image-date: March 2015
+ - image_path: /gallery/img/gallery1/6.jpg
+   image-name: gallery6
+   image-date: February 2015
+ - image_path: /gallery/img/gallery1/7.jpg
+   image-name: gallery7
+   image-date: January 2015
+ - image_path: /gallery/img/gallery1/8.jpg
+   image-name: gallery8
+   image-date: December 2014
+ - image_path: /gallery/img/gallery1/9.jpg
+   image-name: gallery9
+   image-date: November 2014
+ - image_path: /gallery/img/gallery1/10.jpg
+   image-name: gallery9
+   image-date: November 2014
+ - image_path: /gallery/img/gallery1/11.jpg
+   image-name: gallery9
+   image-date: November 2014
+ - image_path: /gallery/img/gallery1/12.jpg
+   image-name: gallery9
+   image-date: November 2014
+ - image_path: /gallery/img/gallery1/13.jpg
+   image-name: gallery9
+   image-date: November 2014
+ - image_path: /gallery/img/gallery1/14.jpg
+   image-name: gallery9
+   image-date: November 2014
+ - image_path: /gallery/img/gallery1/15.jpg
+   image-name: gallery9
+   image-date: November 2014
+---
+<!--CSS-->
+
+<link href="{{site.url}}/gallery/css/demo.css" rel="stylesheet" type='text/css' />
+<link rel="stylesheet" type="text/css" href="{{site.url}}/gallery/css/gallerybox.css">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+  <!--图片-->
+	<article class="galleryArticle">
+  <section id="gallery-wrapper" class="wrapper">
+		{% for image in page.images %}
+  			<article class="white-panel"><img src="{{image.image_path}}" class="thumbnail gallerybox"></article>
+    {% endfor %}
+	</section>
+
+  	</article>
+
+  	<script src="http://libs.useso.com/js/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+  	<script>window.jQuery || document.write('<script src="{{site.url}}/gallery/js/jquery-1.11.0.min.js"><\/script>')</script>
+  	<script src="{{site.url}}/gallery/js/pinterest_grid.js"></script>
+  	<script src="{{site.url}}/gallery/js/jquery.gallerybox.js"></script>
+  	<script type="text/javascript">
+  		//瀑布流插件
+  		$(function(){
+  			$("#gallery-wrapper").pinterest_grid({
+  				no_columns: 3,
+                  padding_x: 30,
+                  padding_y: 10,
+                  margin_bottom: 50,
+                  single_column_breakpoint: 700
+  			});
+
+  		});
+  	</script>
+  	<script type="text/javascript">
+  		//图片画廊插件
+  		$(function(){
+  			$(".gallerybox").gallerybox({
+  				bgColor:"#333",
+  				bgOpacity:0.85
+  			});
+  		});
+  	</script>

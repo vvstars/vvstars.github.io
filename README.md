@@ -1,6 +1,6 @@
 # 关于这个博客主题 🤘🤘🤘
 
-随着博主对自己博客的构思越来越完善，对自己的博客进行了多次改版，该博客主题是我的个人博客第三版，该仓库存放我的最后一版博客。目前（2016.10.29），博客还有gallery模块有待继续开发，其余皆已经完善，后期可能加入一些页面跳转动画。
+随着博主对自己博客的构思越来越完善，对自己的博客进行了多次改版，该博客主题是我的个人博客第三版，该仓库存放我的最后一版博客。目前（2016.10.31），博客已经新增功能相册（Gallery），麦肯锡专栏（McKinsey），画面跳转（fadein fadeout）等等，已经趋近于完善。
 
 **博客访问地址：[http://liaoyuxing.sapce/](http://liaoyuxing.sapce/)**。若您喜欢这个新的博客主题，请给我个star以示鼓励吧，欢迎大家使用。
 
@@ -23,7 +23,8 @@
     * [评论](#评论)
     * [目录 Contents](#目录-contents)
     * [代码高亮](#代码高亮)
-    * [灯泡效果](#灯泡效果)
+    * [导航](#导航)
+    * [开灯效果](#开灯效果)
     * [移动端适配](#移动端适配)
     * [Footer](#footer)
     * [统计](#统计)
@@ -59,7 +60,7 @@
 
 ### 文章 Post
 
-文章页主要由文章列表和侧边栏组成，侧边栏包括归档、分类和标签。
+文章页主要由文章列表和侧边栏组成，侧边栏包括归档、分类、标签、阅读时间和返回文章页。
 
 ### 归档页 Archives
 
@@ -83,15 +84,23 @@
 
 ### 麦肯锡页 McKinsey
 
-该页主要是博主个人对麦肯锡十分感兴趣，开的一个专栏，相当于文章页的扩展。
+该页主要是博主个人对麦肯锡十分感兴趣，开的一个专栏，相当于文章页的扩展。专栏会专门收录关于麦肯锡的文章，而这些文章在文章页里面是找不到的。
+
+开关：写文章时在头信息里加入（- mckinsey：ture）。
 
 ### 相册页 Gallery
 
-待开发。
+![](http://ooo.0o0.ooo/2016/10/31/58170bd52c2f0.png)
+
+使用jQuery写的相册主页，鼠标移上去会有介绍文字出现。相册管理在专门的文件夹gallery里面。点进相册进入相册分页，用全屏响应式jQuery插件写的瀑布流相册，更好的交互体验。点击图片进入浏览页，半透明背景加底边栏。
+
+![](http://ooo.0o0.ooo/2016/10/31/58170e2d3830b.png)
 
 ### 关于页 About
 
-对个人和对本站的介绍，使用`markdown`写的。
+对个人的介绍，在markdown里使用html写的，使用select实现切换中英文。
+
+![](http://ooo.0o0.ooo/2016/10/31/58170d660f4ea.png)
 
 ### 评论
 
@@ -115,21 +124,27 @@ disqus_shortname: xxx
 
 随着 jekyll 的升级，目前代码高亮使用风格与 github 上的 markdown 写法一致。
 
-### 灯泡效果
+### 导航
 
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
+![](http://ooo.0o0.ooo/2016/10/31/58170ec20d525.png)
 
-可以看到导航按钮高亮时，下面的阴影效果，我把这个称为灯泡效果。
+导航仿照麦肯锡公司主页风格，双栏导航。
+
+![](http://ooo.0o0.ooo/2016/10/31/5817100c25814.png)
+
+### 开灯效果
+
+![](http://ooo.0o0.ooo/2016/10/31/58170ec20d525.png)
+
+在gallery页面，背景变为黑色以便更好的显示图片，此时第二栏导航使用透明效果将看不清楚，此处将颜色透明度去除，我称之为开灯效果。
 
 ### 移动端适配
 
 完美适配移动端。
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
-
 ### Footer
 
-**欢迎使用这个主题，使用时请保留 footer 上的模板主题来源。** Theme designed by [Yux](https://github.com/vvstars).
+**欢迎使用这个主题，使用时请在 footer 上的注明模板主题来源，谢谢支持。** Theme designed by [Yux](https://github.com/vvstars).
 
 ### 统计
 
@@ -176,7 +191,7 @@ gem install jekyll
 
 ### 3. 修改参数
 
-主要修改 `_config.yml` 中的参数和自己的网站小图`favicon.ico`
+主要修改 `_config.yml` 中的参数和自己的网站小图`favicon.ico`以及主页头像`logo`。
 
 `_config.yml`文件中
 
@@ -186,10 +201,14 @@ gem install jekyll
 
 ```yml
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: Star - 宇星
+brief-intro: Star, 做宇宙中一颗有梦想的星星!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "http://liaoyuxing.sapce" # the base hostname & protocol for your site
+reading_time:       true #开启阅读时间
+words_per_minute:   200  #每分钟阅读单词数设定
+logo:    /favicon.png    #主页头像
+permalink: /:year/:month/:day/:title/  #链接设定
 ```
 
 #### 链接信息
@@ -220,8 +239,8 @@ description_footer:
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: gaohaoyang
+duoshuo_shortname: #
+disqus_shortname: #
 ```
 
 运行成功后，可以在 disqus 或 多说 的后台管理页看到相关信息。
@@ -237,7 +256,7 @@ disqus_shortname: gaohaoyang
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+baidu_tongji_id: # 百度统计分析追踪id
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 ```
 
@@ -250,11 +269,26 @@ google_analytics_id: UA-72449510-4 # google 分析追踪id
 ```
 ---
 layout: post
-title:  "对这个 jekyll 博客主题的改版和重构"
-date:   2016-03-12 11:40:18 +0800
-categories: jekyll
-tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
-author: Haoyang Gao
+title: "Yuxing's first try"
+excerpt: 'Hello word!'
+date: 2016-09-26
+categories: 个人随笔
+tag:
+  - Life
+author: Yuxing Liao
+---
+```
+
+麦肯锡页只需在头信息中加入`mckinley: ture`即可，同理，你可以定制属于你自己的专栏，如下：
+```
+---
+layout: post
+title: 《敏捷组织创客大赛：全球洞见与中国实践》解读
+date: 2016-10-12
+excerpt: 向敏捷组织转型以适应瞬息万变的市场，正在成为越来越多企业的共同选择。那么，在转型之路上，企业面临着哪些敏捷性挑战？应如何有效应对？又有哪些好的做法值得借鉴？
+mckinsey: true
+tag:
+  - McKinsey
 ---
 ```
 
@@ -285,23 +319,6 @@ excerpt_separator: "\n\n\n\n"
 jekyll s
 ```
 
-显示
-
-```
-Configuration file: E:/GitWorkSpace/blog/_config.yml
-            Source: E:/GitWorkSpace/blog
-       Destination: E:/GitWorkSpace/blog/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 6.33 seconds.
-  Please add the following to your Gemfile to avoid polling for changes:
-    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
- Auto-regeneration: enabled for 'E:/GitWorkSpace/blog'
-Configuration file: E:/GitWorkSpace/blog/_config.yml
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
-```
-
 在本地访问 localhost:4000 即可看到博客主页。
 
 若安装了 Foxit 福昕pdf阅读器可能会占用4000端口，关闭 Foxit服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://gaohaoyang.github.io/2016/03/12/jekyll-theme-version-2.0/)
@@ -317,7 +334,14 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 
 ### 2016.10.29
 
-* `[+]` 重构，待续。
+* `[+]` 使用HyG的博客主题，并在其基础上进行重构。
+* `[+]` 加入主页，麦肯锡页，相册页。
+* `[+]` 改变导航栏，仿麦肯锡风格，将与原来的导航项目移入post下拉框。
+* `[+]` About页加入中英文切换。
+
+### 2016.10.31
+* `[-]` 去除了灯泡效果，同时在Gallery页面加入开灯效果。
+* `[+]` 对Gallery页进行了开发，相册主页有动感的鼠标移动文字显现效果，相册分页使用瀑布流使排版更灵活，点击图片可进入画廊。
 
 关于旧版博客，我不再维护，同时我把代码转移到了另一个仓库。
 
