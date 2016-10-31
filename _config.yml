@@ -9,7 +9,7 @@
 title: Star - 宇星
 brief-intro: Star, 做宇宙中一颗有梦想的星星!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://liaoyuxing.sapce" # the base hostname & protocol for your site
+url: "http://liaoyuxing.space" # the base hostname & protocol for your site
 reading_time:       true
 words_per_minute:   200
 logo:    /favicon.png
