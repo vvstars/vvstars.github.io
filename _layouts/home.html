@@ -13,46 +13,46 @@
 <body>
     <!-- Header -->
         <div class="container ">
-            <div class="row animsition">
-                <a href="{{ site.url }}" class="animsition" data-animsition-out="rotate-large" data-animsition-out-duration="500">
-                    <img src="{{ site.logo }}" class="img-circle">
+            <div class="row animated fadeIn">
+                <a href="{{ site.url }}" class="animated rotateIn">
+                    <img src="{{ site.logo }}" class="img-circle animated rotateIn">
                 </a>
                 <h3 class="title">
-                        <a class="zoombtn animsition-link" href="{{ site.url }}">
-                        	<p style="font-size:1.5rem;font-weight:300;padding-top:15px;">{{ site.title }}</p>
+                        <a href="{{ site.url }}">
+                        	<p  class="animated fadeIn" style="font-size:1.5rem;font-weight:300;padding-top:15px;">{{ site.title }}</p>
 			            </a>
                     </h3>
 
                 <h3 class="title">
-                        <a href="{{ site.url }}" class="animsition-link">
-                        	<p style="font-size:1rem;font-weight:300;padding-bottom:10px;">{{ site.brief-intro }}</p>
+                        <a href="{{ site.url }}">
+                        	<p  class="animated fadeIn" style="font-size:1rem;font-weight:300;padding-bottom:10px;">{{ site.brief-intro }}</p>
 			          </a>
                     </h3> <hr>
                     <h3 class="title" style="font-size:30px;">
                     {% if site.github_username %}
-                    <a class="social-btn animsition-link" href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
-                    <a class="social-btn animsition-link" href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} {% if site.weibo_username %}
-                    <a class="social-btn animsition-link" href="http://weibo.com/{{site.weibo_username}}" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a> {% endif %} {% if site.zhihu_username %}
-                    <a class="social-btn animsition-link" href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont">&#xe829;</i></a> {% endif %} {% if site.twitter_username %}
-                    <a class="social-btn animsition-link" href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
-                    <a class="social-btn animsition-link" href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> {% endif %}  {% if site.linkedIn_username %}
-                    <a class="social-btn animsition-link" href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
-                    <a class="social-btn animsition-link" href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
+                    <a class="social-btn animated fadeIn" href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
+                    <a class="social-btn animated fadeIn" href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} {% if site.weibo_username %}
+                    <a class="social-btn animated fadeIn" href="http://weibo.com/{{site.weibo_username}}" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a> {% endif %} {% if site.zhihu_username %}
+                    <a class="social-btn animated fadeIn" href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont">&#xe829;</i></a> {% endif %} {% if site.twitter_username %}
+                    <a class="social-btn animated fadeIn" href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
+                    <a class="social-btn animated fadeIn" href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> {% endif %}  {% if site.linkedIn_username %}
+                    <a class="social-btn animated fadeIn" href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
+                    <a class="social-btn animated fadeIn" href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
                     </h3>
                 <h3 class="title">
-                         <a class="btn zoombtn animsition-link" aria-hidden="true" href="{{ site.url }}/about">
+                         <a class="btn zoombtn animated fadeIn" aria-hidden="true" href="{{ site.url }}/about">
                          <i class="fa fa-heart"></i>
                          About
                          </a>
-                         <a class="btn zoombtn animsition-link" aria-hidden="true" href="{{ site.url }}/post">
+                         <a class="btn zoombtn animated fadeIn" aria-hidden="true" href="{{ site.url }}/post">
                          <i class="fa fa-pencil"></i>
                          Posts
                          </a>
-                         <a class="btn zoombtn animsition-link" aria-hidden="true" href="{{ site.url }}/mckinsey">
+                         <a class="btn zoombtn animated fadeIn" aria-hidden="true" href="{{ site.url }}/mckinsey">
                          <i class="fa fa-laptop"></i>
                          Mckinsey
                          </a>
-                         <a class="btn zoombtn animsition-link" aria-hidden="true" href="{{ site.url }}/gallery">
+                         <a class="btn zoombtn animated fadeIn" aria-hidden="true" href="{{ site.url }}/gallery">
                          <i class="fa fa-camera"></i>
                          Gallery
                          </a>
@@ -60,38 +60,8 @@
             </div>
         </div>
         <!-- vendor js -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- animsition js -->
-        <script src="{{ site.url }}/js/jquery.animsition.min.js"></script>
-        <!--动画-->
-        <script>
-        $(document).ready(function() {
-
-        $(".animsition").animsition({
-
-        inClass               :   'fade-in',
-        outClass              :   'fade-out',
-        inDuration            :    1500,
-        outDuration           :    800,
-        linkElement           :   '.animsition-link',
-        // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-        loading               :    true,
-        loadingParentElement  :   'body', //animsition wrapper element
-        loadingClass          :   'animsition-loading',
-        unSupportCss          : [ 'animation-duration',
-                                  '-webkit-animation-duration',
-                                  '-o-animation-duration'
-                                ],
-        //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-        //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-
-        overlay               :   false,
-
-        overlayClass          :   'animsition-overlay-slide',
-        overlayParentElement  :   'body'
-      });
-    });
-    </script>
+        <script src="{{ site.url }}/js/jquery-1.11.0.min.js"></script>
+      
 </body>
 
 </html>
