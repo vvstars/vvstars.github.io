@@ -26,7 +26,9 @@ linkedIn_username: #
 dribbble_username:
 
 description_footer: 本站记录我青春的沿途风景！
-description: '廖宇星,廖宇星的博客,Jekyll,麻雪妍的男朋友,麻雪妍,个人博客'
+description: '廖宇星的个人博客，关注web前端开发，麦肯锡公司以及摄影技术，尤其喜欢森山大道。
+博客主要记录个人生活读书笔记，关于web前端开发的一些知识，整个麦肯锡的朝圣之路以及个人摄影作品
+画廊，有必要的话将开栏目写一些摄影文章。'
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
