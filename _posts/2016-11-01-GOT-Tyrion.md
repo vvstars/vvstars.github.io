@@ -38,4 +38,4 @@ Oedipus has a happy beginning, surviving and being the king of Thebes, and gets 
 
 There is no doubt they are talented persons, which makes it such a pity what happened on them.
 
-**PS:** _It's just a middle-term paper of a course called **English Literary Canon and A Game of Thrones.**_ It's interesting for him adding an 'A' infront of Game of Thrones, because it has an 'A' as the name of the nocal but the TV series.
+**PS:** _It's just a middle-term paper of a course called **English Literary Canon and A Game of Thrones.**_ It's interesting for him adding an 'A' infront of Game of Thrones, because it has an 'A' as the name of the noval but the TV series. Thus, we have no chance to watch TV in class.
