@@ -6,6 +6,7 @@ date: 2016-10-23
 categories: openSUSE
 tag:
   - openSUSE
+author: Yuxing Liao
 ---
 
 * content

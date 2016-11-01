@@ -6,6 +6,7 @@ excerpt: " The cofounder of the company that created the world's first computer-
 mckinsey: ture
 tag:
 - McKinsey
+author: Yuxing Liao
 ---
 
 * content

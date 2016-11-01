@@ -6,6 +6,7 @@ excerpt: 一个人无聊看教父
 categories: 个人随笔
 tags:
   - Life
+author: Yuxing Liao
 ---
 
 * content

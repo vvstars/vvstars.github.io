@@ -6,6 +6,7 @@ excerpt: 向敏捷组织转型以适应瞬息万变的市场，正在成为越�
 mckinsey: true
 tag:
   - McKinsey
+author: Yuxing Liao
 ---
 
 * content

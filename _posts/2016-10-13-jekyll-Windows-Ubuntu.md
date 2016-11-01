@@ -7,6 +7,7 @@ categories: 网站维护与开发
 tag:
   - Windows Ubuntu
   - jekyll
+author: Yuxing Liao
 ---
 
 * content
