@@ -346,6 +346,9 @@ jekyll s
 * `[+]` 添加导航栏黑色磨砂效果。
 * `[-]` 使用[animate](https://github.com/daneden/animate.css)替代animsition动画效果。
 
+### 2016.11.07
+* `[+]` 修改了多说评论框的样式，头像旋转效果等。
+
 关于旧版博客，我不再维护，同时我把代码转移到了另一个仓库。
 
 ## License
