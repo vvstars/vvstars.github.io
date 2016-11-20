@@ -5,7 +5,7 @@ excerpt: 配置windows子系统Ubuntu的jekyll开发环境
 date: 2016-10-11
 categories: 网站维护与开发
 tag:
-  - Windows Ubuntu
+  - Windows_Ubuntu
   - jekyll
 author: Yuxing Liao
 ---

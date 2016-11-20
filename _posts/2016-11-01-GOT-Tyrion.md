@@ -5,7 +5,7 @@ date: 2016-11-01
 excerpt: "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character."
 categories: 读书笔记
 tag:
-  - Game of thrones
+  - Game_Of_Thrones
 author: Yuxing Liao
 ---
 
