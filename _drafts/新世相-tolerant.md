@@ -1,12 +1,12 @@
 ---
 layout: post
-title: '《宽容》解读'
-excerpt: ""
-date:
+title: 《宽容》解读
+date: null
 categories: 读书笔记
 tag:
   - 新世相
 author: Yuxing Liao
+published: true
 ---
 
 * content
