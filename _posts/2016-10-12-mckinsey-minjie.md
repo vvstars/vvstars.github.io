@@ -1,11 +1,11 @@
 ---
+title: "《敏捷组织创客大赛：全球洞见与中国实践》解读"
+date: 2016-10-12 00:00:00 Z
+tags:
+- McKinsey
 layout: post
-title: 《敏捷组织创客大赛：全球洞见与中国实践》解读
-date: 2016-10-12
 excerpt: 向敏捷组织转型以适应瞬息万变的市场，正在成为越来越多企业的共同选择。那么，在转型之路上，企业面临着哪些敏捷性挑战？应如何有效应对？又有哪些好的做法值得借鉴？
 mckinsey: true
-tag:
-  - McKinsey
 author: Yuxing Liao
 ---
 

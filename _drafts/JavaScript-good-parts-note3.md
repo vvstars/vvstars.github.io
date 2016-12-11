@@ -1,8 +1,12 @@
 ---
+title: JavaScript 语言精粹笔记3-方法、毒瘤等
+date: 2016-06-10 00:00:00 Z
+categories:
+- JavaScript
+tags:
+- 函数
+- JavaScript
 layout: post
-title:  "JavaScript 语言精粹笔记3-方法、毒瘤等"
-categories: JavaScript
-tags:  函数 JavaScript
 ---
 
 * content

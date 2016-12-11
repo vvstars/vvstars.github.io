@@ -1,10 +1,11 @@
 ---
-layout: post
 title: "《咨询的奥秘：寻求和提出建议的智慧》笔记"
-date: 2016-11-17
-categories: 读书笔记
-tag:
-  - 咨询
+date: 2016-11-17 00:00:00 Z
+categories:
+- 读书笔记
+tags:
+- 咨询
+layout: post
 author: Yuxing Liao
 ---
 

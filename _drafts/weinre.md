@@ -1,9 +1,16 @@
 ---
+title: Weinre --WebApp 调试工具
+date: 2015-06-18 00:06:05 Z
+categories:
+- JavaScript
+tags:
+- Weinre
+- WebApp
+- 调试工具
+- JavaScript
+- HTML
+- CSS
 layout: post
-title:  "Weinre --WebApp 调试工具"
-date:   2015-06-18 00:06:05
-categories: JavaScript
-tags: Weinre WebApp 调试工具 JavaScript HTML CSS
 ---
 
 * content

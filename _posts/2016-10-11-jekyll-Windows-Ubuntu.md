@@ -1,12 +1,13 @@
 ---
-layout: post
 title: windows 16.07中Ubuntu子系统安装jekyll环境教程
+date: 2016-10-11 00:00:00 Z
+categories:
+- 网站维护与开发
+tags:
+- Windows_Ubuntu
+- jekyll
+layout: post
 excerpt: 配置windows子系统Ubuntu的jekyll开发环境
-date: 2016-10-11
-categories: 网站维护与开发
-tag:
-  - Windows_Ubuntu
-  - jekyll
 author: Yuxing Liao
 ---
 

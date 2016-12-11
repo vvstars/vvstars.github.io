@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 《教父》III
-date: 2015-12-26
-excerpt: 一个人无聊看教父
-categories: 个人随笔
+title: "《教父》III"
+date: 2015-12-26 00:00:00 Z
+categories:
+- 个人随笔
 tags:
-  - Life
+- Life
+layout: post
+excerpt: 一个人无聊看教父
 author: Yuxing Liao
 ---
 

@@ -1,9 +1,21 @@
 ---
+title: Web App 相关技术
+date: 2015-06-17 14:06:05 Z
+categories:
+- JavaScript
+tags:
+- JavaScript
+- HTML
+- CSS
+- Sass
+- 移动端
+- XSS
+- AMD
+- requireJS
+- CommonJS
+- 性能优化
+- WebApp
 layout: post
-title:  "Web App 相关技术"
-date:   2015-06-17 14:06:05
-categories: JavaScript
-tags: JavaScript HTML CSS Sass 移动端 XSS AMD requireJS CommonJS 性能优化 WebApp
 ---
 
 * content

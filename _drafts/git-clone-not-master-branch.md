@@ -1,8 +1,13 @@
 ---
+title: Git 如何 clone 非 master 分支的代码
+date: 2016-07-07 00:00:00 Z
+categories:
+- GitHub
+tags:
+- Git
+- GitHub
+- 分支
 layout: post
-title:  "Git 如何 clone 非 master 分支的代码"
-categories: GitHub
-tags:  Git GitHub 分支
 ---
 
 * content

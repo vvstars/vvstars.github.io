@@ -1,10 +1,11 @@
 ---
+title: 生命周期评价(LCA)总体介绍
+date: 2016-11-27 00:00:00 Z
+categories:
+- 环境
+tags:
+- LCA
 layout: post
-title:  "生命周期评价(LCA)总体介绍"
-date:   2016-11-27
-categories: 环境
-tag:
--   LCA
 author: Yuxing Liao
 ---
 

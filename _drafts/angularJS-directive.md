@@ -1,8 +1,11 @@
 ---
+title: AngularJS
+date: 2016-12-11 18:28:26.682000000 Z
+categories:
+- JavaScript
+tags:
+- AngularJS
 layout: post
-title:  "AngularJS"
-categories: JavaScript
-tags:  AngularJS
 ---
 
 * content

@@ -1,11 +1,12 @@
 ---
-layout: post
-title: '《Staying one step ahead at Pixar: An interview with Ed Catmull》解读'
-date: 2016-10-28
-excerpt: " The cofounder of the company that created the world's first computer-animated feature film lays out a management philosophy for keeping Pixar innovative. "
-mckinsey: ture
-tag:
+title: "《Staying one step ahead at Pixar: An interview with Ed Catmull》解读"
+date: 2016-10-28 00:00:00 Z
+tags:
 - McKinsey
+layout: post
+excerpt: " The cofounder of the company that created the world's first computer-animated
+  feature film lays out a management philosophy for keeping Pixar innovative. "
+mckinsey: ture
 author: Yuxing Liao
 ---
 

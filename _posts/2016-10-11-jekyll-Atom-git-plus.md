@@ -1,12 +1,13 @@
 ---
-layout: post
 title: 使用Atom维护github博客网站（for windows）
+date: 2016-10-11 00:00:00 Z
+categories:
+- 网站维护与开发
+tags:
+- Atom
+- github
+layout: post
 excerpt: 摆脱来回切换git客户端与编辑器的烦恼，将编辑器与上传合二为一。
-date: 2016-10-11
-categories: 网站维护与开发
-tag:
-  - Atom
-  - github
 ---
 
 * content

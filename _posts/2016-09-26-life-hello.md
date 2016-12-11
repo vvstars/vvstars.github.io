@@ -1,11 +1,12 @@
 ---
+title: Yuxing's first try
+date: 2016-09-26 00:00:00 Z
+categories:
+- 个人随笔
+tags:
+- Life
 layout: post
-title: "Yuxing's first try"
-excerpt: 'Hello word!'
-date: 2016-09-26
-categories: 个人随笔
-tag:
-  - Life
+excerpt: Hello word!
 ---
 
 * content

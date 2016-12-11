@@ -1,8 +1,14 @@
 ---
+title: 如何使用 babel
+date: 2016-06-14 00:00:00 Z
+categories:
+- JavaScript
+tags:
+- ES2015
+- ES6
+- ES5
+- babel
 layout: post
-title:  "如何使用 babel"
-categories: JavaScript
-tags:  ES2015 ES6 ES5 babel 
 ---
 
 * content

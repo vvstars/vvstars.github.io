@@ -1,9 +1,16 @@
 ---
+title: 百度Web前端技术学院(1)-HTML, CSS基础
+date: 2015-04-15 19:06:05 Z
+categories:
+- HTML
+- CSS
+tags:
+- Baidu
+- ife
+- HTML
+- CSS
+- task
 layout: post
-title:  "百度Web前端技术学院(1)-HTML, CSS基础"
-date:   2015-04-15 19:06:05
-categories: HTML CSS
-tags: Baidu ife HTML CSS task
 ---
 
 * content

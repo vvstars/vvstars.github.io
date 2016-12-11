@@ -1,9 +1,14 @@
 ---
+title: JavaScript 中的闭包
+date: 2015-06-14 14:06:05 Z
+categories:
+- JavaScript
+tags:
+- JavaScript
+- 闭包
+- 慕课网
+- ife
 layout: post
-title:  "JavaScript 中的闭包"
-date:   2015-06-14 14:06:05
-categories: JavaScript
-tags: JavaScript 闭包 慕课网 ife
 ---
 
 * content

@@ -1,11 +1,12 @@
 ---
-layout: post
 title: openSUSE安装成功后需要做的几件事情
+date: 2016-10-23 00:00:00 Z
+categories:
+- openSUSE
+tags:
+- openSUSE
+layout: post
 excerpt: 配置openSUSE的jekyll开发环境以及常用软件
-date: 2016-10-23
-categories: openSUSE
-tag:
-  - openSUSE
 author: Yuxing Liao
 ---
 

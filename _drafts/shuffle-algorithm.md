@@ -1,8 +1,14 @@
 ---
+title: Fisher–Yates shuffle 洗牌算法
+date: 2016-10-16 00:00:00 Z
+categories:
+- JavaScript
+tags:
+- 算法
+- shuffle
+- 乱序
+- 洗牌
 layout: post
-title:  "Fisher–Yates shuffle 洗牌算法"
-categories: JavaScript
-tags:  算法 shuffle 乱序 洗牌
 author: HyG
 ---
 

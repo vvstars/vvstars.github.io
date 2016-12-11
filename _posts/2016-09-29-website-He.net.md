@@ -1,11 +1,12 @@
 ---
-layout: post
 title: 使用he.net的免费DNS服务器
+date: 2016-09-29 00:00:00 Z
+categories:
+- 网站维护与开发
+tags:
+- DNS解析
+layout: post
 excerpt: 摆脱国内种种DNS解析限制，享受国际一级DNS解析服务。
-date: 2016-09-29
-categories: 网站维护与开发
-tag:
-  - DNS解析
 ---
 
 * content

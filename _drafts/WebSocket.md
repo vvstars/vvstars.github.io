@@ -1,8 +1,13 @@
 ---
+title: WebSocket探究与应用
+date: 2016-12-11 18:28:26.338000000 Z
+categories:
+- JavaScript
+tags:
+- WebSocket
+- 通信
+- 协议
 layout: post
-title:  "WebSocket探究与应用"
-categories: JavaScript
-tags:  WebSocket 通信 协议
 ---
 
 * content
