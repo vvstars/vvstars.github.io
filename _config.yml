@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  gallery:
+    title: gallery
+    output: true
 brief-intro: O ever youthful, O ever weeping.
 baseurl: ''
 url: http://liaoyuxing.space
