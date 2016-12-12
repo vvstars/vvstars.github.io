@@ -11,13 +11,16 @@ author: Yuxing Liao
 ---
 
 
-* [关于cloudcannon](#cloudcannon)
-* [关于近况](#section)
-* [写在后面](#section-1)
+* content
+{:toc}
 
 # 关于cloudcannon
 
 这是我第一篇用cloudcannon写的文章，cloudcannon是一个创业团队CloudCannon 的网站使用标准 HTML、CSS 和 Javascript 设计。设计师们可以继续使用自己最喜的工具，如 Dreamweaver、 MailChimp、jekyll 和 Wufoo，也可以使CloudCannon 的所见即所得编辑器。
+
+
+
+
 
 CloudCannon 目前的收费计划包括免费原型服务，以及 9 美元/月到 49 美元/月的托管网站服务。CloudCannon 的收费页显示其认真听取了反馈，很快就会允许设计师使用其他存储服务提供商来发布网站，并集成谷歌分析。
 
